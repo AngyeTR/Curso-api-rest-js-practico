@@ -145,6 +145,12 @@ button {
   margin-right: 15px;
 }
 
+.liked-container {
+  height: auto;
+  min-height: 30px;
+}
+
+
 .trendingPreview-header, .liked-header, .categoriesPreview-title {
   margin-bottom: 24px;
 }
@@ -334,6 +340,12 @@ button {
   padding-bottom: 16px;
 }
 
+.liked-movieList {
+  min-height: 20px;
+  height: auto;
+  max-height: 260px;
+}
+
 .trendingPreview-movieList .movie-container, .liked-movieList .movie-container {
   display: inline-block;
   margin-right: 8px;
@@ -492,6 +504,7 @@ button {
   width: 95%;
   margin-right: 15px;
   padding-right: 25px;
+  max-height: 210px;
 }
 
 .relatedMovies-scrollContainer .movie-container {
